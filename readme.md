@@ -10,6 +10,8 @@ What occurred to me as another possible solution, with some help from reading on
 
 This provides a few benefits in that it keeps routes centralized and give me the freedom to add different frameworks if I see fit in the future. It also means I can hot-load pages with data to cut down on API calls even if only a little.
 
+One disadvantage may be that I will have multiple files to build that because the of how they are structured. In smaller Apps this would certainly add time to the set up and run but in many larger, corporate Apps, this is already somewhat common practice.
+
 ## Current Goals
 
 The current plan is to create a Home Page, a Polls App and a Note Taking App.

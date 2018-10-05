@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(req):
-    return HttpResponse('<h1>NoteApp</h1>') 
+    return render(req, 'notes.html')

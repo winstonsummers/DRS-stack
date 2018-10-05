@@ -57,7 +57,9 @@ ROOT_URLCONF = 'dRSQLStack.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            'dRSQLStack/baseTemplates/',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
